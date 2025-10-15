@@ -1,0 +1,5 @@
+# Requirements for Integrated Cognitive Inference System
+# Python 3.6+
+
+requests>=2.25.0
+
