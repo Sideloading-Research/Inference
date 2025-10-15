@@ -1,0 +1,142 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║              INTEGRATED COGNITIVE ANALYSIS RESULTS                           ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+📝 INPUT TEXT:
+----------------------------------------------------------------------
+
+    Pedro is an excellent student who lives in Madrid. He studies Computer Science at 
+    the Complutense University and is very passionate about programming. Bob is an 
+    experienced programmer who works at Microsoft. Bob is the father of Pedro and 
+    a colleague of Marco. Marco is a talented teacher who loves helping students learn. 
+    Marco teaches Python to Pedro with great enthusiasm. One day, Pedro was playing 
+    football in the park. He kicked the ball with force and it impacted the wall violently. 
+    The impact was terrible and broke the wall. The ball bounced back and hit Pedro, 
+    making him feel sad. Marco was surprised by the incident and felt worried about Pedro.
+    Roman is transhumanist. Roman has a broder named Dennis. Roman has a cat named Katka.
+    Roman programmed a sideload. Roman studied biology and informatics.
+    
+----------------------------------------------------------------------
+
+🔹 STAGE 1: STRUCTURED FACTS (Inference Format)
+----------------------------------------------------------------------
+(Pedro)IsA(student)
+(Pedro)LivesIn(Madrid)
+(He)Studies(Computer Science)
+(He)is(very)PassionateAbout(programming)
+(Bob)IsA(experienced)
+(Bob)WorksAt(Microsoft)
+(Bob)ColleagueOf(Marco)
+(Marco)IsA(teacher)
+(Marco)LovesHelping(students)learn
+(Marco)Teaches(Python, Pedro) with great enthusiasm
+(Pedro)was(playing)
+(football)in(the)
+(He)Kicked(ball)
+(ball)Impacted(wall)
+(impact)WasA(terrible)
+(impact)Broke(wall)
+(ball)bounces_back(Pedro)
+(ball)hit(Pedro)
+(Pedro)feels(sad)
+(Marco)WasSurprisedBy(incident)
+(Marco)FeltWorriedAbout(Pedro)
+(Roman)is(transhumanist)
+(Roman)HasA(broderder)named(Dennis)
+(Roman)Has(a)Cat(Katka)
+(Roman)programmed(a)a_sideload
+(Roman)Studied(biology)
+(Roman)Studied(informatics)
+
+🔹 STAGE 2: NATURAL LANGUAGE INFERENCES
+----------------------------------------------------------------------
+Pedro is a student and lives in Madrid.
+He studies Computer Science and is very.
+very passionate about programming.
+Bob is a experienced and works at Microsoft and colleague of Marco.
+Marco is a teacher and loves helping students and teaches Python, Pedro.
+Pedro was playing.
+football in the.
+He kicked ball.
+ball impacted wall.
+impact was a terrible and broke wall.
+ball bounces back Pedro and hit Pedro.
+Pedro feels sad.
+Marco was surprised by incident and felt worried about Pedro.
+Roman is transhumanist and has a broderder.
+broderder named Dennis.
+Roman has a.
+a cat Katka.
+Roman programmed a and studied biology and studied informatics.
+
+🔹 STAGE 3: EMOTIONAL & SENTIMENT ANALYSIS
+----------------------------------------------------------------------
+Pedro is a student and lives in Madrid.
+  → Emotion: Joy, Sentiment: Positive
+
+He studies Computer Science and is very.
+  → Emotion: Joy, Sentiment: Positive
+
+very passionate about programming.
+  → Emotion: Joy, Sentiment: Positive
+
+Bob is a experienced and works at Microsoft and colleague of Marco.
+  → Emotion: Joy, Sentiment: Positive
+
+Marco is a teacher and loves helping students and teaches Python, Pedro.
+  → Emotion: Joy, Sentiment: Positive
+
+Pedro was playing.
+  → Emotion: Joy, Sentiment: Positive
+
+football in the.
+  → Emotion: Joy, Sentiment: Positive
+
+He kicked ball.
+  → Emotion: Anger, Sentiment: Negative
+
+ball impacted wall.
+  → Emotion: Joy, Sentiment: Negative
+
+impact was a terrible and broke wall.
+  → Emotion: Anger, Sentiment: Negative
+
+ball bounces back Pedro and hit Pedro.
+  → Emotion: Joy, Sentiment: Positive
+
+Pedro feels sad.
+  → Emotion: Sadness, Sentiment: Negative
+
+Marco was surprised by incident and felt worried about Pedro.
+  → Emotion: Fear, Sentiment: Negative
+
+Roman is transhumanist and has a broderder.
+  → Emotion: Joy, Sentiment: Positive
+
+broderder named Dennis.
+  → Emotion: Neutral, Sentiment: Neutral
+
+Roman has a.
+  → Emotion: Neutral, Sentiment: Neutral
+
+a cat Katka.
+  → Emotion: Joy, Sentiment: Positive
+
+Roman programmed a and studied biology and studied informatics.
+  → Emotion: Joy, Sentiment: Positive
+
+📊 EMOTIONAL SUMMARY
+----------------------------------------------------------------------
+Total Sentences: 18
+
+Emotions:
+  • Joy: 12
+  • Anger: 2
+  • Sadness: 1
+  • Fear: 1
+  • Neutral: 2
+
+Sentiments:
+  • Positive: 11
+  • Negative: 5
+  • Neutral: 2
