@@ -1,0 +1,63 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║              INTEGRATED COGNITIVE ANALYSIS RESULTS                           ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+📝 INPUT TEXT:
+----------------------------------------------------------------------
+
+    Pedro is a brilliant student who lives in Madrid. He studies Computer Science
+    and loves programming. Bob is Pedro's father and he works at Microsoft as a
+    senior developer. Marco is an excellent teacher who teaches Python to Pedro.
+    Pedro is very excited about learning and feels happy when he masters new concepts.
+    
+----------------------------------------------------------------------
+
+🔹 STAGE 1: STRUCTURED FACTS (Inference Format)
+----------------------------------------------------------------------
+(Pedro)IsA(student)
+(Pedro)LivesIn(Madrid)
+(He)Studies(Computer Science)
+(He)Loves(programming)
+(Bob)IsA(father)
+(Bob)WorksAt(Microsoft)
+(Marco)IsA(teacher)
+(Marco)Teaches(Python, Pedro)
+(Pedro)IsA(excited)
+(Pedro)FeelsHappy(when, masters)
+
+🔹 STAGE 2: NATURAL LANGUAGE INFERENCES
+----------------------------------------------------------------------
+Pedro is a student and lives in Madrid.
+He studies Computer Science and loves programming.
+Bob is a father and works at Microsoft.
+Marco is a teacher and teaches Python, Pedro.
+Pedro is a excited and feels happy when, masters.
+
+🔹 STAGE 3: EMOTIONAL & SENTIMENT ANALYSIS
+----------------------------------------------------------------------
+Pedro is a student and lives in Madrid.
+  → Emotion: Joy, Sentiment: Positive
+
+He studies Computer Science and loves programming.
+  → Emotion: Joy, Sentiment: Positive
+
+Bob is a father and works at Microsoft.
+  → Emotion: Anger, Sentiment: Negative
+
+Marco is a teacher and teaches Python, Pedro.
+  → Emotion: Joy, Sentiment: Positive
+
+Pedro is a excited and feels happy when, masters.
+  → Emotion: Joy, Sentiment: Positive
+
+📊 EMOTIONAL SUMMARY
+----------------------------------------------------------------------
+Total Sentences: 5
+
+Emotions:
+  • Joy: 4
+  • Anger: 1
+
+Sentiments:
+  • Positive: 4
+  • Negative: 1

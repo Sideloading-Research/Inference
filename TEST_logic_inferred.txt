@@ -1,0 +1,60 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                    INFERENCE RESULTS - LOGIC ENGINE                          ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+══════════════════════════════════════════════════════════════════════
+ORIGINAL FACTS
+══════════════════════════════════════════════════════════════════════
+((Estirpe)Relation(el brazo) → (estirpe)Relation(el brazo, casi))
+((Mientras)Relativo(hacer, hacer) → (Miré)Relativo(ventana, hacer))
+((NoOne)Was(inTheAsensor) → (NoOne)DidNotHave(anyone))
+((Qué)Algoritmo(algo) → (Qué)AlgoritmoCompleto(algoCompleto))
+(Cené)Relation(ver una serie en la televisión)
+(Compré)Relation(la leche que me faltaba)
+(De camino a casa)RelationWent(went_to_supermarket)
+(Desayuné)DePie(visandoLosMensajesDelMobile)
+(Encendí)El(ordenador)
+(Fiché)IsA(entrada)
+(Había)QuantasGustaPersonaEsperando(esperando)
+(I)Puse(los auriculares)
+(Las cinco y media llegaron por fin)Relation(llegaron, por fin)
+(Light)Was(turnedOff)
+(Llegue)BelongsTo(portal)
+(Llegué)WentTo(office)
+(Los)OjosSeCerraban(se)
+(Mañana)Was(another_day)
+(Me)DiUnaDuchaCaliente(hot)
+(Miré)Repeteo(el reloj varias veces)
+(Pagué)IsA(caja_Rapida)
+(Parecía)UnDiaGris(dia)
+(Por la tarde)WasMoreTranquilo(work)
+(Preparé)Relation(una cena sencilla)
+(Puse la cafetera en marcha)Relation(en marcha, marca)
+(Quedaba)PocaLeche(bebida)
+(Revisé)Relation(elcorreoelectronico)
+(Sky)Was(cloudy)
+(Subí)FoundSomething(inBack, nearWindow)
+(Subí)IsA(vestirme)
+(Tenía)HadTo(acordarme, comprar, más)
+(Terminé)IsA(importante)
+(Traffic)WasDense(atThatHour)
+(Un poco de pescado)Relation(a, plancha, ensalada)
+
+══════════════════════════════════════════════════════════════════════
+ORIGINAL RULES
+══════════════════════════════════════════════════════════════════════
+
+══════════════════════════════════════════════════════════════════════
+DERIVED FACTS (BY INFERENCE DEPTH)
+══════════════════════════════════════════════════════════════════════
+
+══════════════════════════════════════════════════════════════════════
+SUMMARY
+══════════════════════════════════════════════════════════════════════
+Original facts: 34
+Original rules: 0
+Derived facts: 0
+Total facts: 34
+Iterations: 1
+
+══════════════════════════════════════════════════════════════════════
